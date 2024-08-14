@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --font1: "Cabin", sans-serif;
+  --font2: "Lora", serif;
+  --color1: #00cc66;
+  --color2: #374248;
+  --color3: #2f453a;
+  --color4: #808080;
+  --color5: #fcf2ee;
+  --color6: #ffffff;
+  --color7: #000000;
+}
